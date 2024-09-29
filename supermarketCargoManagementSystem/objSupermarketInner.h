@@ -4,8 +4,8 @@
 #include <string> // 字符串库
 #include <vector>
 #include "constSpace.h" // 常量空间
-#include "timePure.h"
-#include "pageDependencies.h"
+#include "timePure.h" // 时间戳
+#include "pageDependencies.h" // 菜单依赖
 
 // 商品类 抽象基类。 抽象类不允许创建对象，只能通过派生类创建对象。
 class Goods {
